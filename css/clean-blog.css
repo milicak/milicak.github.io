@@ -2,7 +2,7 @@
 .intro-header .post-heading,
 .intro-header .page-heading {
   padding: 100px 0 50px;
-  color: #FFFFFF;
+  color: #FFF000;
 }
 body {
   font-family: 'Lora', 'Times New Roman', serif;
@@ -48,7 +48,7 @@ hr.small {
   max-width: 100px;
   margin: 15px auto;
   border-width: 4px;
-  border-color: #FFFFFF;
+  border-color: #FFF000;
 }
 .navbar-custom {
   background: white;
@@ -60,7 +60,8 @@ hr.small {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .navbar-custom .navbar-brand {
-  font-weight: 800;
+  font-weight: 1800;
+  color: black;
 }
 .navbar-custom .nav li a {
   text-transform: uppercase;
@@ -74,20 +75,22 @@ hr.small {
     border-bottom: 1px solid transparent;
   }
   .navbar-custom .navbar-brand {
-    color: white;
+    color: black;
     padding: 20px;
   }
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus {
     color: rgba(255, 255, 255, 0.8);
+    color: red;
   }
   .navbar-custom .nav li a {
-    color: white;
+    color: black;
     padding: 20px;
   }
   .navbar-custom .nav li a:hover,
   .navbar-custom .nav li a:focus {
     color: rgba(255, 255, 255, 0.8);
+    color: red;
   }
 }
 @media only screen and (min-width: 1170px) {
@@ -115,18 +118,22 @@ hr.small {
     transition: transform 0.3s;
   }
   .navbar-custom.is-fixed .navbar-brand {
-    color: #404040;
+    /*color: #404040; */
+    color: #000000;
   }
   .navbar-custom.is-fixed .navbar-brand:hover,
   .navbar-custom.is-fixed .navbar-brand:focus {
     color: #0085a1;
+    color: #000000;
   }
   .navbar-custom.is-fixed .nav li a {
     color: #404040;
+    color: #000000;
   }
   .navbar-custom.is-fixed .nav li a:hover,
   .navbar-custom.is-fixed .nav li a:focus {
     color: #0085a1;
+    color: #000000;
   }
   .navbar-custom.is-visible {
     /* if the user changes the scrolling direction, we show the header */
@@ -143,8 +150,14 @@ hr.small {
   background-attachment: scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
+  background-size: cover ;
+  -o-background-size: cover;
+  /* Mehmet 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  */
   margin-bottom: 20px;
 }
 @media only screen and (min-width: 768px) {
@@ -166,10 +179,11 @@ hr.small {
 .intro-header .site-heading .subheading,
 .intro-header .page-heading .subheading {
   font-size: 24px;
+  color:#000000;
   line-height: 1.1;
   display: block;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 300;
+  font-weight: 800;
   margin: 10px 0 0;
 }
 @media only screen and (min-width: 768px) {
@@ -184,18 +198,25 @@ hr.small {
 .intro-header .post-heading .subheading,
 .intro-header .post-heading .meta {
   line-height: 1.1;
+  font-weight: 800;
   display: block;
 }
 .intro-header .post-heading .subheading {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  /* Mehmet this is for title in the post */
   font-size: 24px;
+  color:#000000;
   margin: 10px 0 30px;
   font-weight: 600;
+  font-weight: 700;
 }
 .intro-header .post-heading .meta {
+  /* background-color: white; */
+  /* Mehmet this is for subtitle in the post */
   font-family: 'Lora', 'Times New Roman', serif;
   font-style: italic;
-  font-weight: 300;
+  font-weight: bold 400;
+  color:#3498DB;
   font-size: 20px;
 }
 .intro-header .post-heading .meta a {
@@ -225,6 +246,7 @@ hr.small {
 .post-preview > a > .post-subtitle {
   margin: 0;
   font-weight: 300;
+  color: #000000;
   margin-bottom: 10px;
 }
 .post-preview > .post-meta {
@@ -458,7 +480,8 @@ div.float-left{
 
 hr.style-one {
     border: 0;
-    height: 1px;
     background: #333;
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    height: 1px;
+    background-size: 100% 100%;
 }

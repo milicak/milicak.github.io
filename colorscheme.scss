@@ -2,8 +2,12 @@
 ---
 $header-color: {{ site.headercolor }};
 
-.intro-header .site-heading,
-.intro-header .post-heading,
+.intro-header .site-heading,{
+  color: $header-color;
+}
+.intro-header .post-heading,{
+  color: $header-color;
+}
 .intro-header .page-heading {
   color: $header-color;
 }
