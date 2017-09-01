@@ -4,6 +4,7 @@ title:      Tsunami Modeling
 author:     Mehmet ILICAK
 tags:       Bodrum Tsunami
 subtitle:   Modeling the tsunami after the Bodrum earthquake 28-06-2017
+header-img: "img/kanagawa_v1.jpg"
 category:  bodrumtsunami
 visualworkflow: true
 ---
