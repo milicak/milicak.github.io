@@ -14,7 +14,7 @@ visualworkflow: true
 
 
 <p>Here we tested two different cases for the Bodrum Earthquake. The first case represents 
-if the vault was north dipping (ND) and the second case is for the south dipping (SD). 
+if the fault was north dipping (ND) and the second case if it was for the south dipping (SD). 
 Two different cases lead to two different initial tsunami patterns.</p> 
 
 
