@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- <meta http-equiv="refresh" content="40" >  -->
+<head>
+    <title>Open Page FullScreen</title>
+    <script type="text/javascript">  
+    function   FullScreenMode(){
+        var win = window.open("", "full", "dependent=yes, fullscreen=yes");
+        win.location = window.location.href;
+        window.opener = null;
+    }  
+    </script>
+</head>
+<body>
+
+<div style="position: fixed; z-index: 1000; width: 100%; height: 100%">
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plot.ly/~milicak/5.embed"></iframe>
+
+<!-- <input id="Button1" type="button" value="AYBE" onclick="FullScreenMode()"/>  -->
+
+ </div>
+</body>
+</html>
